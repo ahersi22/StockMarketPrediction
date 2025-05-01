@@ -18,9 +18,9 @@ import itertools
 
 st.title("S&P 500 Forecast")
 
-df = pd.read_excel(r"C:\Users\aramc\Desktop\Final Year Project - 2025\sp500_data.xlsx", sheet_name="Clean", parse_dates=["Date"])
-mets = pd.read_excel(r"C:\Users\aramc\Desktop\Final Year Project - 2025\predictions and metrics.xlsx", sheet_name="Model Metrics")
-fpreds = pd.read_excel(r"C:\Users\aramc\Desktop\Final Year Project - 2025\predictions and metrics.xlsx", sheet_name="Future Predictions")
+df = pd.read_excel(r"C:\Users\aramc\Desktop\Final Year Project - 2025\S&P 500 analysis and prediction\sp500_data.xlsx", sheet_name="Clean", parse_dates=["Date"])
+mets = pd.read_excel(r"C:\Users\aramc\Desktop\Final Year Project - 2025\S&P 500 analysis and prediction\predictions and metrics.xlsx", sheet_name="Model Metrics")
+fpreds = pd.read_excel(r"C:\Users\aramc\Desktop\Final Year Project - 2025\S&P 500 analysis and prediction\predictions and metrics.xlsx", sheet_name="Future Predictions")
 
 
 df2 = df.copy()
