@@ -13,7 +13,7 @@ Make sure the following files are in the same folder:
 
 How to Run the App
 
-Step 1: Open PowerShell or Terminal
+Step 1: Open PowerShell or Terminal on appy.py
 
 Navigate to the project folder:
 
